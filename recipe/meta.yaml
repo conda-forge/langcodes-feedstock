@@ -18,10 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - poetry
-    - python >=3.6
+    - setuptools >=60
+    - setuptools-scm >=8.0
+    - python >=3.8
   run:
-    - python >=3.6
+    - python >=3.8
+    - language-data >=1.2
 
 test:
   imports:

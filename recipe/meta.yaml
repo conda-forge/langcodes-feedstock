@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/langcodes-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langcodes-{{ version }}.tar.gz
   sha256: 1eef8168d07e51e131a2497ffecad4b663f6208e7c3ae3b8dc15c51734a6f801
 
 build:
@@ -20,9 +20,9 @@ requirements:
     - pip
     - setuptools >=60
     - setuptools-scm >=8.0
-    - python >=3.8
+    - python {{ python_min }}
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - language-data >=1.2
 
 test:
@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: http://github.com/rspeer/langcodes

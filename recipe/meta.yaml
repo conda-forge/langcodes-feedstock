@@ -23,7 +23,6 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - language-data >=1.2
 
 test:
   imports:

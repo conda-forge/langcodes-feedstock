@@ -1,5 +1,5 @@
 {% set name = "langcodes" %}
-{% set version = "3.4.1" %}
+{% set version = "3.5.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langcodes-{{ version }}.tar.gz
-  sha256: a24879fed238013ac3af2424b9d1124e38b4a38b2044fd297c8ff38e5912e718
+  sha256: 40bff315e01b01d11c2ae3928dd4f5cbd74dd38f9bd912c12b9a3606c143f731
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 

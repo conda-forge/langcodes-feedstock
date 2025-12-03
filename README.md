@@ -3,17 +3,16 @@ About langcodes-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/langcodes-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/rspeer/langcodes
+Home: https://github.com/georgkrause/langcodes
 
 Package license: MIT
 
-Summary: Labels and compares human languages in a standardized way
+Summary: Tools for labeling human languages with IETF language tags
 
 Langcodes is a toolkit for working with and comparing the
- standardized codes for languages, such as 'en' for English, 'es'
- for Spanish, and 'zh-Hant' for Traditional Chinese. These are
- BCP 47 language codes, formerly known as ISO language codes.
-
+standardized codes for languages, such as 'en' for English, 'es'
+for Spanish, and 'zh-Hant' for Traditional Chinese. These are
+BCP 47 language codes, formerly known as ISO language codes.
 
 Current build status
 ====================

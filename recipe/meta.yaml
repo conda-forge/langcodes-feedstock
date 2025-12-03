@@ -35,8 +35,8 @@ test:
     - python {{ python_min }}
 
 about:
-  home: http://github.com/rspeer/langcodes
-  summary: Labels and compares human languages in a standardized way
+  home: https://github.com/georgkrause/langcodes
+  summary: Tools for labeling human languages with IETF language tags
   license: MIT
   license_file: LICENSE.txt
   description: |
